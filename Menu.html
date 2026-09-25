@@ -7,615 +7,306 @@
 
     <title>Shahrzad Menu</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
-    <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-
 <body>
 
+<header class="main-header">
+    <div class="header-container">
 
-    <header class="site-header">
+        <div class="logo">SHAHRZAD</div>
 
-        <div class="logo">
-            SHAHRZAD
+        <div class="nav-right">
+            <nav class="top-nav">
+                <a href="Home.html">Home</a>
+                <a href="Menu.html" class="active">Menu</a>
+                <a href="Book a room.html">Book a room</a>
+            </nav>
+
+            <div class="lang-dropdown">
+                <button class="lang-btn">English</button>
+            </div>
         </div>
 
-        <nav class="nav-menu">
+    </div>
+</header>
 
-            <a href="Home.html">
-                Home
-            </a>
+<section class="menu-hero">
 
-            <a href="Menu.html" class="active">
-                Menu
-            </a>
+    <h1 class="shahrzad-title-small">
+        Shahrzad Menu
+    </h1>
 
-            <a href="book a room.html">
-                Book a Room
-            </a>
+    <p class="hero-subtitle">
+        Discover our delicious selection of beverages and food
+    </p>
 
-        </nav>
+    <div class="filter-container">
 
-    </header>
+        <button class="filter-btn active">
+            <i class="fas fa-utensils"></i>
+            Desert
+        </button>
 
-    <section class="menu-hero">
+        <button class="filter-btn">
+            <i class="fas fa-moon"></i>
+            Ramadan Drinks & Desserts
+        </button>
 
-        <h1 class="shahrzad-title-small">
-            Shahrzad Menu
-        </h1>
+        <button class="filter-btn">
+            <i class="fas fa-mug-hot"></i>
+            Hot Drink
+        </button>
 
-        <p class="hero-subtitle">
-            Discover our delicious selection of beverages and food
-        </p>
+        <button class="filter-btn">
+            <i class="fas fa-ice-cream"></i>
+            Frappuccino
+        </button>
 
-        <div class="filter-container">
+        <button class="filter-btn">
+            <i class="fas fa-apple-alt"></i>
+            Fresh Juice
+        </button>
 
-            <button class="filter-btn active">
-                <i class="fas fa-utensils"></i>
-                Desert
-            </button>
+        <button class="filter-btn">
+            <i class="fas fa-bread-slice"></i>
+            Bakery
+        </button>
 
-            <button class="filter-btn">
-                <i class="fas fa-moon"></i>
-                Ramadan Drinks & Desserts
-            </button>
+        <button class="filter-btn">
+            <i class="fas fa-blender"></i>
+            Milk Shake
+        </button>
 
-            <button class="filter-btn">
-                <i class="fas fa-mug-hot"></i>
-                Hot Drink
-            </button>
+        <button class="filter-btn">
+            <i class="fas fa-star"></i>
+            Spacialty
+        </button>
 
-            <button class="filter-btn">
-                <i class="fas fa-ice-cream"></i>
-                Frappuccino
-            </button>
+        <button class="filter-btn">
+            <i class="fas fa-glass-whiskey"></i>
+            SODA
+        </button>
 
-            <button class="filter-btn">
-                <i class="fas fa-apple-alt"></i>
-                Fresh Juice
-            </button>
+        <button class="filter-btn">
+            <i class="fas fa-tint"></i>
+            Soft
+        </button>
 
-            <button class="filter-btn">
-                <i class="fas fa-bread-slice"></i>
-                Bakery
-            </button>
+        <button class="filter-btn">
+            <i class="fas fa-snowflake"></i>
+            Iced Espresso Drinks
+        </button>
 
-            <button class="filter-btn">
-                <i class="fas fa-blender"></i>
-                Milk Shake
-            </button>
+        <button class="filter-btn">
+            <i class="fas fa-cocktail"></i>
+            Smoothie
+        </button>
 
-            <button class="filter-btn">
-                <i class="fas fa-star"></i>
-                Spacialty
-            </button>
+        <button class="filter-btn">
+            <i class="fas fa-coffee"></i>
+            Hot Espresso Drinks
+        </button>
 
-            <button class="filter-btn">
-                <i class="fas fa-glass-whiskey"></i>
-                SODA
-            </button>
+    </div>
 
-            <button class="filter-btn">
-                <i class="fas fa-tint"></i>
-                Soft
-            </button>
+</section>
 
-            <button class="filter-btn">
-                <i class="fas fa-snowflake"></i>
-                Iced Espresso Drinks
-            </button>
+<section class="menu-grid-section">
 
-            <button class="filter-btn">
-                <i class="fas fa-cocktail"></i>
-                Smoothie
-            </button>
+    <div class="product-grid">
 
-            <button class="filter-btn">
-                <i class="fas fa-coffee"></i>
-                Hot Espresso Drinks
-            </button>
-
+        <div class="item-card">
+            <img src="images/امريكانو.jpg" alt="امريكانو">
+            <div class="item-info">
+                <h3>امريكانو</h3>
+                <div class="dots-line">......</div>
+                <div class="price-row">
+                    <span class="price-tag">From 130 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
         </div>
 
-    </section>
-
-    <section class="menu-grid-section">
-
-        <div class="product-grid">
-
-
-            <div class="item-card">
-
-                <img src="images/امريكانو.jpg" alt="امريكانو">
-
-                <div class="item-info">
-
-                    <h3>
-                        امريكانو
-                    </h3>
-
-                    <div class="dots-line">
-                        ......
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 130 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
+        <div class="item-card">
+            <img src="images/دونانتس.jpg" alt="دونانتس">
+            <div class="item-info">
+                <h3>دونانتس</h3>
+                <div class="dots-line">.....</div>
+                <div class="price-row">
+                    <span class="price-tag">From 135 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
                 </div>
-
+                <p class="size-text">Available in different sizes</p>
             </div>
-
-            <div class="item-card">
-
-                <img src="images/دونانتس.jpg" alt="دونانتس">
-
-                <div class="item-info">
-
-                    <h3>
-                        دونانتس
-                    </h3>
-
-                    <div class="dots-line">
-                        .....
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 135 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="item-card">
-
-                <img src="images/لاتيه.jpg" alt="لاتيه">
-
-                <div class="item-info">
-
-                    <h3>
-                        لاتيه
-                    </h3>
-
-                    <div class="dots-line">
-                        .....
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 135 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="item-card">
-
-                <img src="images/تشيز كيك فراوله.JPG" alt="تشيز كيك فراوله">
-
-                <div class="item-info">
-
-                    <h3>
-                        تشيز كيك فراوله
-                    </h3>
-
-                    <div class="dots-line">
-                        .....
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 110 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="item-card">
-
-                <img src="images/ايس كوفى.PNG" alt="ايس كوفى">
-
-                <div class="item-info">
-
-                    <h3>
-                        ايس كوفى
-                    </h3>
-
-                    <div class="dots-line">
-                        ....
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 130 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="item-card">
-
-                <img src="images/بسبوسه.JPG" alt="بسبوسه">
-
-                <div class="item-info">
-
-                    <h3>
-                        بسبوسه
-                    </h3>
-
-                    <p class="sub-category">
-                        بسبوسه
-                    </p>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 110 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="item-card">
-
-                <img src="images/ايس كريم.PNG" alt="ايس كريم">
-
-                <div class="item-info">
-
-                    <h3>
-                        ايس كريم
-                    </h3>
-
-                    <div class="dots-line">
-                        .....
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 110 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="item-card">
-
-                <img src="images/سحلب.jpg" alt="سحلب">
-
-                <div class="item-info">
-
-                    <h3>
-                        سحلب
-                    </h3>
-
-                    <div class="dots-line">
-                        ..
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 140 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="item-card">
-
-                <img src="images/شاى نعناع.jpg" alt="شاى نعناع">
-
-                <div class="item-info">
-
-                    <h3>
-                        شاى نعناع
-                    </h3>
-
-                    <div class="dots-line">
-                        ..
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 140 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="item-card">
-
-                <img src="images/شوكولاته ساخنه.jpg" alt="شوكولاته ساخنه">
-
-                <div class="item-info">
-
-                    <h3>
-                        شوكولاته ساخنه
-                    </h3>
-
-                    <div class="dots-line">
-                        ..
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 135 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="item-card">
-
-                <img src="images/فراوله.JPG" alt="فراوله">
-
-                <div class="item-info">
-
-                    <h3>
-                        فراوله
-                    </h3>
-
-                    <p class="sub-category">
-                        فراوله
-                    </p>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 135 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <div class="item-card">
-
-                <img src="images/قهوه تركى.jpg" alt="قهوه تركى">
-
-                <div class="item-info">
-
-                    <h3>
-                        قهوه تركى
-                    </h3>
-
-                    <div class="dots-line">
-                        ..
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 135 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="item-card">
-
-                <img src="images/كركاديه.jpg" alt="كركاديه">
-
-                <div class="item-info">
-
-                    <h3>
-                        كركاديه
-                    </h3>
-
-                    <div class="dots-line">
-                        ..
-                    </div>
-
-                    <div class="price-row">
-
-                        <span class="price-tag">
-                            From 60 EGP
-                        </span>
-
-                        <span class="rating-tag">
-                            5 <i class="fas fa-star"></i>
-                        </span>
-
-                    </div>
-
-                    <p class="size-text">
-                        Available in different sizes
-                    </p>
-
-                </div>
-
-            </div>
-
-
         </div>
 
-    </section>
-
-
-    <footer class="site-footer">
-
-        <div class="footer-location">
-
-            <img src="location.jpg" alt="Map">
-
+        <div class="item-card">
+            <img src="images/لاتيه.jpg" alt="لاتيه">
+            <div class="item-info">
+                <h3>لاتيه</h3>
+                <div class="dots-line">.....</div>
+                <div class="price-row">
+                    <span class="price-tag">From 135 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
         </div>
 
-        <div class="footer-content">
-
-            <h2>
-                Shahrzad Cafe
-            </h2>
-
-            <p>
-                Sip. Work. Vibe.
-            </p>
-
+        <div class="item-card">
+            <img src="images/تشيز كيك فراوله.JPG" alt="تشيز كيك فراوله">
+            <div class="item-info">
+                <h3>تشيز كيك فراوله</h3>
+                <div class="dots-line">.....</div>
+                <div class="price-row">
+                    <span class="price-tag">From 110 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
         </div>
 
-    </footer>
+        <div class="item-card">
+            <img src="images/ايس كوفى.PNG" alt="ايس كوفى">
+            <div class="item-info">
+                <h3>ايس كوفى</h3>
+                <div class="dots-line">....</div>
+                <div class="price-row">
+                    <span class="price-tag">From 130 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
 
+        <div class="item-card">
+            <img src="images/بسبوسه.JPG" alt="بسبوسه">
+            <div class="item-info">
+                <h3>بسبوسه</h3>
+                <p class="sub-category">بسبوسه</p>
+                <div class="price-row">
+                    <span class="price-tag">From 110 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="images/ايس كريم.PNG" alt="ايس كريم">
+            <div class="item-info">
+                <h3>ايس كريم</h3>
+                <div class="dots-line">.....</div>
+                <div class="price-row">
+                    <span class="price-tag">From 110 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="images/سحلب.jpg" alt="سحلب">
+            <div class="item-info">
+                <h3>سحلب</h3>
+                <div class="dots-line">..</div>
+                <div class="price-row">
+                    <span class="price-tag">From 140 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="images/شاى نعناع.jpg" alt="شاى نعناع">
+            <div class="item-info">
+                <h3>شاى نعناع</h3>
+                <div class="dots-line">..</div>
+                <div class="price-row">
+                    <span class="price-tag">From 140 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="images/شوكولاته ساخنه.jpg" alt="شوكولاته ساخنه">
+            <div class="item-info">
+                <h3>شوكولاته ساخنه</h3>
+                <div class="dots-line">..</div>
+                <div class="price-row">
+                    <span class="price-tag">From 135 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="images/فراوله.JPG" alt="فراوله">
+            <div class="item-info">
+                <h3>فراوله</h3>
+                <p class="sub-category">فراوله</p>
+                <div class="price-row">
+                    <span class="price-tag">From 135 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="images/قهوه تركى.jpg" alt="قهوه تركى">
+            <div class="item-info">
+                <h3>قهوه تركى</h3>
+                <div class="dots-line">..</div>
+                <div class="price-row">
+                    <span class="price-tag">From 135 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
+
+        <div class="item-card">
+            <img src="images/كركاديه.jpg" alt="كركاديه">
+            <div class="item-info">
+                <h3>كركاديه</h3>
+                <div class="dots-line">..</div>
+                <div class="price-row">
+                    <span class="price-tag">From 60 EGP</span>
+                    <span class="rating-tag">5 <i class="fas fa-star"></i></span>
+                </div>
+                <p class="size-text">Available in different sizes</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="site-footer">
+     <div class="map-link">
+                    <a href="https://maps.google.com/?q=Mansoura+Al-Mashaya+Egypt" target="_blank">
+                        <i class="fas fa-location-arrow"></i>
+                        Open in Maps
+                    </a>
+                </div>
+
+    <div class="footer-content">
+        <h2>Shahrzad Cafe</h2>
+        <p>Sip. Work. Vibe.</p>
+    </div>
+</footer>
 
 </body>
-
 </html>
